@@ -81,8 +81,23 @@
 </li> -->
 <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
 <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-<li class="nav-item"><a href="webhosting.html" class="nav-link">Hosting Services</a></li>
-<li class="nav-item"><a href="enterprise.html" class="nav-link">IT Service</a></li>
+<li class="nav-item"><a href="#" class="nav-link">Broadband Plans</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="broadband.html" class="nav-link">Unlock Unlimited Plans</a></li>
+</ul>
+</li>
+<li class="nav-item"><a href="#" class="nav-link">Corporate Plans</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="webhosting.html" class="nav-link">Mini Leased Plans</a></li>
+<li class="nav-item"><a href="enterprise.html" class="nav-link">Enterprise Solution</a></li>
+</ul>
+</li>
+<li class="nav-item"><a href="#" class="nav-link">Contact Us</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="broadband.html" class="nav-link">Get Connections</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Enquiry</a></li>
+</ul>
+</li>
 <!-- <li class="nav-item"><a href="#" class="nav-link">Pages <i class="fas fa-chevron-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item"><a href="#" class="nav-link">About Us</a>
@@ -141,7 +156,7 @@
 <li class="nav-item"><a href="single-blog.html" class="nav-link">Blog Details</a></li>
 </ul>
 </li> -->
-<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+
 </ul>
 <div class="others-options">
 <a href="contact.html" class="btn btn-primary">Get Started</a>
@@ -170,15 +185,7 @@
 
 <section class="services-area ptb-100">
 <div class="container">
-<div class="section-title">
-<span>
-<span class="icon">
-<i class="flaticon-technical-support"></i>
-</span>
-<span>Our IT Services</span>
-</span>
-<h2>We give smart experience and incredible features</h2>
-</div>
+
 <div class="row">
 
 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -186,7 +193,7 @@
 <div class="icon">
 <i class="flaticon-router"></i>
 </div>
-<h3>High Speed Internet</h3>
+<h3>We Provide High Speed Internet</h3>
 <p>We bring most recent and most developed Fiber optic innovation to your home (Fiber to the home – FTTH) to give you a completely devoted web association. Our Advanced Fiber optics is future prepared and can deal with speeds 1000 Mbps or more. Our server farms and switches utilize best in class innovation that empowers us to bring the best web insight to you. In every corner of your home, we are offering you to get 1 Gbps internet through giga fibernet. Our Asianet giga fibernet allows you to experience the data centre networking. We give A Free access to a high speed and hd quality video calling through our fibernet access. </p>
 <a href="contact.html" class="details-btn"><i class="flaticon-arrow-pointing-to-right"></i></a>
 <div class="image-box">
@@ -195,6 +202,8 @@
 </div>
 </div>
 </div>
+
+
 
 <!-- <div class="col-lg-4 col-md-6 col-sm-6">
 <div class="services-box">
@@ -263,6 +272,69 @@
 
 
 
+<section class="contact-area ptb-100">
+<div class="container">
+<div class="section-title">
+    <i class="flaticon-technical-support"></i>
+<span>Send Message</span>
+<h2>Please enter your details below and we will get in touch with you</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p> -->
+</div>
+<form id="" method="post" action="https://formspree.io/f/xwkaqkyj">
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="text" class="form-control" required="required" placeholder="Your Name" name="fname" id="fname">
+<!-- <div class="help-block with-errors"></div>
+ -->
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="email" class="form-control" required="required" placeholder="Your Email Address" name="femail" id="femail" >
+<!-- <div class="help-block with-errors"></div> -->
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="text" class="form-control" required="required" name="fphone_number" placeholder="Phone Number" id="fphone_number" >
+<!-- <div class="help-block with-errors"></div> -->
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="text" class="form-control" required="required" name="fmsg_subject" placeholder="Subject" id="fmsg_subject" >
+<!-- <div class="help-block with-errors"></div> -->
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<div class="form-group">
+<input type="text" class="form-control" required="required" name="fmsg_serv" placeholder="Service Needed" id="fmsg_serv" >
+<!-- <div class="help-block with-errors"></div> -->
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12">
+<div class="form-group">
+<textarea name="fmessage" class="form-control" required="required" id="fmessage" cols="30" rows="10" placeholder="Type Your Message Here" ></textarea>
+<!-- <div class="help-block with-errors"></div> -->
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<button class='quesbtn top20' style='float: right;padding-right: 20px;padding-top: 17px;padding-bottom: 17px;padding-left: 20px; float: right;background: #01338c;color: white;' name="submit" id="submit" onclick="return validateForm()">SEND ENQUIRY</button>
+<!-- <div id="submit" class="h3 text-center hidden"></div> -->
+<!-- <div class="clearfix"></div> -->
+</div>
+</div>
+</form>
+</div>
+</section>
+
+
+
 
 
 <footer class="footer-area">
@@ -300,8 +372,9 @@
 <ul class="links-widget-list">
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About Us</a></li>
-<li><a href="webhosting.html">Hosting Services</a></li>
-<li><a href="enterprise.html">IT Services</a></li>
+<li><a href="broadband.html">Unlock Unlimited Plans</a></li>
+<li><a href="webhosting.html">Mini Leased Plans</a></li>
+<li><a href="enterprise.html">Enterprise Solution</a></li>
 <li><a href="contact.html">Contact Us</a></li>
 </ul>
 </div>
